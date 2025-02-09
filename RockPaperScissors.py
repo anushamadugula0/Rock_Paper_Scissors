@@ -8,9 +8,7 @@ while not game_over:
         game_over=True
     elif user_choice.isdigit():
         user_choice=int(user_choice)
-    if user_choice=='x':
-        game_over=True
-    elif(user_choice==0):
+    if(user_choice==0):
         print("✊")
     elif(user_choice==1):
         print("✋")
